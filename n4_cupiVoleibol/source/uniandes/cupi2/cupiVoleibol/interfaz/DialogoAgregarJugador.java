@@ -30,7 +30,7 @@ import uniandes.cupi2.cupiVoleibol.mundo.Jugador;
 public class DialogoAgregarJugador extends JDialog implements ActionListener
 {
     // -----------------------------------------------------------------
-    // Constantes
+    // 
     // -----------------------------------------------------------------
 
     /**
@@ -138,7 +138,8 @@ public class DialogoAgregarJugador extends JDialog implements ActionListener
 
         add( panelIngreso );
 
-        pack( );
+        pack( )
+        {};
     }
 
     // -----------------------------------------------------------------
